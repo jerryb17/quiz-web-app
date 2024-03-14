@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <div id="alert">
+    <div class="alert-title">Congratulations</div>
+  </div>
+  <form id="quiz-form">
+    <ol>
+      <li class="question-item">
+        <div>
+          What does this code return? (<code>0 || "" || false || "Hi"</code>)
+        </div>
+        <ol>
+
+          <li class="answer-item"><label><input class="answer" type="radio" name="answer-1"
+                value="false"><code>0</code></label></li>
+          <li class="answer-item"><label><input class="answer" type="radio" name="answer-1"
+                value="true"><code>"Hi"</code></label>
+          </li>
+          <li class="answer-item"><label><input class="answer" type="radio" name="answer-1"
+                value="false"><code>false</code></label>
+          </li>
+          <li class="answer-item"><label><input class="answer" type="radio" name="answer-1"
+                value="false"><code>" "</code></label>
+          </li>
+        </ol>
+      </li>
+      <li class="question-item">
+        <div>What is it called when a function calls itself?</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="false">
+                Inception
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="false">
+                Self-Referential
+              </label>
+              </1i>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="true">
+                Recursion
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="false">
+                Who Cares
+            </li>
+          </ol>
+        </div>
+      </li>
+
+      <li class="question-item">
+        <div>How do you access the value of the data-count data attribute in JavaScript?</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="true">
+                element.dataset.count
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="false">
+                element.dataAttribute.count
+              </label>
+              </1i>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value=" false">
+                element.dataset.dataCount
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value=" false">
+                element.dataCount
+            </li>
+          </ol>
+        </div>
+      </li>
+    </ol>
+    <button type="submit">Check</button>
+  </form>
+</body>
+
+</html>
